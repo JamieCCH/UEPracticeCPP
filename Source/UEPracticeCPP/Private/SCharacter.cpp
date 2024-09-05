@@ -89,5 +89,5 @@ void ASCharacter::PrimaryAttack()
 
 void ASCharacter::Jumping()
 {
-
+	
 }

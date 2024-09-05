@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "UEPracticeCPPEditor Editor Win64 Development (UEPracticeCPP)",
+			"includePath": [ 
+				"${workspaceFolder}\\Intermediate\\**", 
+				"${workspaceFolder}\\Plugins\\**", 
+				"${workspaceFolder}\\Source\\**" 
+			],
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "configurationProvider": "epic.ue",
+            "compileCommands": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP.json"
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "configurationProvider": "epic.ue",
+            "compileCommands": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}

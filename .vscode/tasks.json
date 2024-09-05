@@ -1,0 +1,1177 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "UEPracticeCPP Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Debug",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Debug",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPP Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Debug",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"DebugGame",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"DebugGame",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPP Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"DebugGame",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Development",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Development",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPP Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Development",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Test",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Test",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPP Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Test",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Shipping",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Shipping",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPP Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Win64",
+				"Shipping",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Debug",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Debug Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Build",
+				"UEPracticeCPP Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Debug Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Build",
+				"UEPracticeCPP Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Debug Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"UEPracticeCPP Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Debug",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPP Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Debug",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"DebugGame",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android DebugGame Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Build",
+				"UEPracticeCPP Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android DebugGame Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Build",
+				"UEPracticeCPP Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android DebugGame Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"UEPracticeCPP Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"DebugGame",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPP Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"DebugGame",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Development",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Development Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Build",
+				"UEPracticeCPP Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Development Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Build",
+				"UEPracticeCPP Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Development Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"UEPracticeCPP Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Development",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPP Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Development",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Test",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Test Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Build",
+				"UEPracticeCPP Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Test Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Build",
+				"UEPracticeCPP Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Test Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"UEPracticeCPP Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Test",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPP Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Test",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Shipping",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Shipping Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Build",
+				"UEPracticeCPP Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Shipping Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Build",
+				"UEPracticeCPP Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Shipping Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-Project=D:/MyLearning/UECPPCourse/UEPracticeCPP/UEPracticeCPP.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"UEPracticeCPP Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Shipping",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPP Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPP Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPP",
+				"Android",
+				"Shipping",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPPEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPPEditor",
+				"Win64",
+				"Debug",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPPEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPPEditor",
+				"Win64",
+				"Debug",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPPEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPPEditor",
+				"Win64",
+				"Debug",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPPEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPPEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPPEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPPEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPPEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPPEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPPEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPPEditor",
+				"Win64",
+				"Development",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPPEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UEPracticeCPPEditor",
+				"Win64",
+				"Development",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UEPracticeCPPEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "UEPracticeCPPEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UEPracticeCPPEditor",
+				"Win64",
+				"Development",
+				"D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\UEPracticeCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.2"
+			}
+		}
+	]
+}

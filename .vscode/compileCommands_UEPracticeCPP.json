@@ -1,0 +1,106 @@
+[
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\Private\\SBarrel.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\Private\\SCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\Private\\SGameplayInterface.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\Private\\SMagicProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\Public\\SBarrel.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\Public\\SCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\Public\\SGameplayInterface.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\Public\\SMagicProjectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\UEPracticeCPP.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\UEPracticeCPP.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\UEPracticeCPP.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\UEPracticeCPPGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\Source\\UEPracticeCPP\\UEPracticeCPPGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\MyLearning\\UECPPCourse\\UEPracticeCPP\\.vscode\\compileCommands_UEPracticeCPP\\UEPracticeCPP.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	}
+]
